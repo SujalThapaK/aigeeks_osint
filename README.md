@@ -7,7 +7,7 @@ A lightweight OSINT intelligence platform that performs asynchronous investigati
 ## Tech Stack
 The application utilizes:
 - A Flask-based API backend (`server.py`)
-- A modular investigation engine (`osint_engine.py`)
+- A modular investigation engine (`osint_engine.py`) that utilizes selenium and undetected chromedrivers
 - A PDF report generator (`report_generator.py`)
 - A simple frontend UI (`index.html`)
 </br></br>
