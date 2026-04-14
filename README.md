@@ -93,3 +93,8 @@ A sample PDF report is present at: [reports/osint_Travis_Haasch_20260414.pdf](ht
 - Job state is kept in-memory, so restarting the server resets active jobs.
 - Open `index.html` in your browser or serve it from a local static server to use the frontend.
 
+## Bonus
+- The osint_engine.py has been designed in a highly modular manner, such that adding or removing scrapers is easy.
+- Simple filtering functions have been put in place to ignore false positives or low-confidence results within osint_engine.py 
+(ex. <i>def _filter_empty_profile_discoveries</i> and <i>flag_false_positives</i>).
+
