@@ -96,5 +96,5 @@ A sample PDF report is present at: [reports/osint_Travis_Haasch_20260414.pdf](ht
 ## Bonus
 - The osint_engine.py has been designed in a highly modular manner, such that adding or removing scrapers is easy.
 - Simple filtering functions have been put in place to ignore false positives or low-confidence results within osint_engine.py </br>
-(ex. <i>def _filter_empty_profile_discoveries</i> and <i>flag_false_positives</i>).
+(ex. def <i> _filter_empty_profile_discoveries</i> and def <i>flag_false_positives</i>).
 
