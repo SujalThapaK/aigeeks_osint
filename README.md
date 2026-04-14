@@ -29,12 +29,7 @@ A high-level overview of the application flow has been illustrated below:</br></
   - Uses both HTML search and Selenium-based scraping where needed
 
 - **PDF report generation**
-  - Creates a professional report with:
-    - cover page
-    - executive summary
-    - categorized findings
-    - audit trail
-  - Uses ReportLab for layout and styling
+  - Consolidates the results and creates a professional report using ReportLab 
 
 ## How to Clone and Setup
 
